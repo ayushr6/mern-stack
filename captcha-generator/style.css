@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: linear-gradient(135deg, #8052ec, #d161);
+}
+
+.container {
+    width: 32em;
+    background-color: #ffffff;
+    padding: 5em;
+    border-radius: 0.6em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 1em 2em rgba(0,0,0,0.25);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.canvas {
+    border: 1px solid #000000;
+}
