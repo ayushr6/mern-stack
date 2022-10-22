@@ -1,7 +1,7 @@
 
 # Day 1
 
-## <html>
+## `<html>` tag
 The `<html>` tag represents the root of an HTML document.
 
 The `<html>` tag is the container fro all other HTML elements (except for the `<!DOCTYPE>` tag) 
