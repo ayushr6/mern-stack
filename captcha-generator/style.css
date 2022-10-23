@@ -28,7 +28,7 @@ body {
     margin: 1em 0;
 }
 
-.canvas {
+canvas {
     border: 1px solid #000000;
     border-radius: 0.4em;
 }
