@@ -23,10 +23,37 @@ body {
 
 .wrapper {
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: space-between;
+    margin: 1em 0;
 }
 
 .canvas {
     border: 1px solid #000000;
+    border-radius: 0.4em;
+}
+
+button#reload-button {
+    font-size: 26px;
+    width: 4.6em;
+    background-color: #8052ec;
+    border: none;
+    border-radius: 0.4em;
+    color: #ffffff;
+    height: 70px;
+}
+
+input[type="text"] {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.05em;
+    width: 100%;
+    padding: 1em 0.7em;
+    border: 1px solid #000000;
+    border-radius: 0.4em;
+}
+
+button#submit-button {
+    width: 100%;
+    background-color: #8052ec;
+    color: #ffffff;
 }
