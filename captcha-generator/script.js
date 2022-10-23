@@ -24,4 +24,12 @@ const textGenerator = () => {
 // Generate random numbers between a gitven range
 const randomNumber = (min,max) => Math.floor(Math.random() * (max - min + 1) + min);
 
-console.log(randomNumber(1,10));
+const triggerFunction = () => {
+    // clear Input
+    userInput.value = "";
+    text = textGenerator();
+    console.log(text);
+    // Randomize the text so that everytime the position of numbers and small letters is random
+    text = [...text].sort(() => Math.random() - 0.5).join("");
+    drawStringOnCanvas(text);
+}
